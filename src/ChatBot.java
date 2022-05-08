@@ -3,16 +3,18 @@ import java.util.Scanner;
 public class ChatBot {
 
     public static void main(String[] args) {
+        hello();
         greeting();
         age();
         count();
         test();
-
+    }
+    public static void hello (){
+        System.out.println("Hey ya! I'm JAVACHATBOT Andre 3001");
     }
     public static void greeting(){
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Hey ya! I'm JAVACHATBOT Andre 3001");
         System.out.println("What is your name?");
         String name = scanner.nextLine();
         System.out.println("I can't hear you\n" +
